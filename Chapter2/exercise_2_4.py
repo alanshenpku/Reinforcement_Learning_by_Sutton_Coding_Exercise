@@ -61,3 +61,6 @@ def multi_task(max_steps,num_samples,epsilon,arm_number,alpha):
     # plt.grid()
     plt.show()
     plt.close() 
+    
+#output in the same folder with pdf format
+multi_task(max_steps=1000,num_samples=10,epsilon=0.1,arm_number=10,alpha=0.1)
